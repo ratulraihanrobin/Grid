@@ -4,13 +4,12 @@ body{
 
 .container{
     background: #eee;
-    width: 500px;
-    height: 500px;
-    margin: 70px 0 0 50px;
+    width: 600px;
+    margin: 50px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit , 90px);
+    grid-template-rows: repeat(2, 100px);
 }
 
 .items1{
