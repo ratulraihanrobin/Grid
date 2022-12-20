@@ -4,11 +4,12 @@ body{
 
 .container{
     background: #eee;
-    width: 80%;
+    width: 650px;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 80px);
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 150px);
 }
 
 .items1{
@@ -21,16 +22,23 @@ body{
 
 .items3{
     background-color: slateblue;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:1fr 1fr;
+   
+    
+}
+
+.items3 > div{
+    background-color: #fff;
+    color: red;
+    padding: 
+    10px;
+    
+    
 }
 
 .items4{
     background-color: hotpink;
 }
 
-.items5{
-    background-color: royalblue;
-}
-
-.items6{
-    background-color: goldenrod;
-}
